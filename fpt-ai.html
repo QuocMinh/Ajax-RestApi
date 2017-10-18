@@ -12,7 +12,10 @@
     <div>
         <span>STT: </span><span><input type="number" id="stt"></span>
         <span>So quay: </span><span><input type="number" id="soQuay"></span>
-        <input type="button" value="Đọc" onclick="docSo()">
+        <input type="button" value="Đọc" onclick="docSo(10, 4)">
+    </div>
+    <div>
+        <audio id="tts-audio" controls="true" autoplay="false" oncontextmenu="return false;" controlslist="nodownload" src="https://s3-ap-southeast-1.amazonaws.com/text2speech-v4/female.-2.fd9ff4639d851fa82426278ebb26e76b.mp3" __idm_id__="469200897"></audio>
     </div>
 </body>
 </html>
